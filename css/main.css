@@ -96,38 +96,55 @@ textarea {
    ========================================================================== */
 
 
-html {
-  background-color: #fff;
-  height: 100%;
+   html {
+    background-color: #fff;
+    height: 100%;
+  }
+  
+  body {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 2em;
+    font-size: 1.25em;
+    height: 100%;
+  }
+
+  header h1 {
+    font-size: 4em;
+    display: flex;
+    justify-content: center;
+}
+  
+  .wrapper1, .wrapper2, .wrapper3, .wrapper4, .wrapper5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-body {
-  font-family: 'Source Sans Pro', sans-serif;
-  padding: 2em;
-  font-size: 1.25em;
-  height: 100%;
+.div-1, .div-2, .div-3, .div-4, .div-5 {
+    height: 80px;
+    width: 6%;
+}
+  .wrapper1 .div-2, .wrapper1 .div-3, .wrapper1 .div-4, .wrapper2 .div-2, .wrapper3 .div-2, .wrapper3 .div-3, .wrapper3 .div-4, .wrapper4 .div-4, .wrapper5 .div-2, .wrapper5 .div-3, .wrapper5 .div-4 {
+    background-color: rgb(189, 0, 116);
 }
 
-.wrapper {
-  /*add display:flex and set justify-content to space-between*/
-  font-weight: 700;
-  display: flex;
-  justify-content: space-between;
+.wrapper1 .div-1, .wrapper1 .div-5, .wrapper2 .div-1, .wrapper2 .div-3, .wrapper2 .div-4, .wrapper2 .div-5, .wrapper3 .div-1, .wrapper3 .div-5, .wrapper4 .div-1, .wrapper4 .div-2, .wrapper4 .div-3, .wrapper4 .div-5, .wrapper5 .div-1, .wrapper5 .div-5 {
+    background-color: green;
 }
-
-.div-1, .div-2, .div-3 {
-  /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
-  line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  height: 300px;
-  width: 30%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
+footer ul {
+    display: flex;
+    justify-content: center;
+    padding-right: 70px;
+}  
+footer li {
+    padding-left: 20px;
+    list-style: none;
 }
-
+footer img {
+    height: 29px;
+    width: 29px;
+}
 
 
 
